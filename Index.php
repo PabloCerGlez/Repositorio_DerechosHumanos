@@ -25,9 +25,9 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup"  >
     <div class="navbar-nav" >
-      <a class="nav-item nav-link active btn-light " style=" text-align: center; border-radius: 25px; width:150px;  color:white; background-color:   #0E5EA8;          " href="#">Inicio <span class="sr-only">(current)</span></a>
-      <a class="nav-item nav-link btn btn-light " style= " text-align: center; border-radius: 25px;width:150px;   color:#262626;" href="Pantalla_documentos.php">Documentos</a>
-      <a class="nav-item nav-link btn btn-light" style="text-align: center; border-radius: 25px; width:150px;  color:#262626;"  href="Pantalla_foro.php">Foro</a>
+      <a class="nav-item nav-link active btn-light" style=" text-align: center; border-radius: 25px;  width:250px ;  color:white; background-color:   #0E5EA8;          " href="#">INICIO <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link btn btn-light " style= " text-align: center; border-radius: 25px;  width:250px;   color:#262626;" href="Pantalla_documentos.php">DOCUMENTOS</a>
+      <a class="nav-item nav-link btn btn-light" style="text-align: center; border-radius: 25px; width:250px;  color:#262626;"  href="Pantalla_foro.php">FORO</a>
     </div>
   </div>
 </nav>
@@ -276,22 +276,20 @@ e incluyente.</p>
 
 <!-- Area de Contacto Contenedor-->
 <!-- ...........................-->
-<div  style="background-color:#262626;  ">
 
 
-  <div class="row align-items-start overflow-hidden p-3 p-md-5 m-md-3" style="height: 600px; background-color:#262626;">
-<!-- Area de Contacto form Contenedor  (IZQUIERDO) -->
-<!-- ...........................-->
-  <div class="col "  style="background-color:#262626; height: 525px;" style="background-color:#262626;  ">  
-  <div class="col-md">        
-  <div class=" text-black"  style="background-color:#262626;height: 525px; width:100%;">
-  <div class="card-body">
-        <h1 class="card-title" style="margin-top:100px;   text-align: rigth;  color:#FBD011; ">CONTACTO</h1>
+<div class="container-fluid" style="    height:490px;">
+    <div class="row">
+      <div class="col"  style="background-color:#262626; ">
+
+
+
       
-        <div class="container">
+        <h1 style="color:#FBD011;">CONTACTO</h1> 
+
 
 <form>
-  <div class="form-group" style="margin-top:50px;   "> 
+  <div class="form-group" style="margin-top:50px;      "> 
     <label for="nombre" style="color:#fff;  "> Para mas informacion envianos un mensaje</label>
     <input type="text" class="form-control" id="nombre" name="nombre"  placeholder="Nombre:">
   </div> 
@@ -304,44 +302,37 @@ e incluyente.</p>
       <button type="submit" class="btn btn-dark btn-lg"  style=" background-color:#FBD011; color:white; " >Enviar</button>  
 
 
+
+
+
+
 </form>
 
-</div> 
 
-  </div>
-  
-  </div>          
-      
-  </div>
 
-  </div>
 
-<!-- Area de Mision Map Contenedor  (DERECHO) -->
-<!-- ...........................-->
-      
-  <div class="col"  style="background-color:#fff; height: 525px; background-color:#262626;" >
-  <h1 class="card-title" style="margin-top:50px;   text-align: rigth; color:#FBD011; ">Direccion:</h1>
+      </div>
+      <div class="col"  style="background-color:#262626;">
+        <h1 class="card-title" style="margin-top:20px;   text-align: rigth; color:#FBD011; ">Direccion:</h1>
        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d941.7020621703726!2d-103.71993617079106!3d19.247186899186882!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x84255aafba26d7b9%3A0x1470d2b491f1e2e3!2sPromotores+de+Derechos+Humanos%2C+PROCEDER%2C+A.C.!5e0!3m2!1ses!2smx!4v1544508924498" width="100%" height="350px" frameborder="0" style="border:0" allowfullscreen></iframe>
-        <p class="card-text " style="margin-top:10px;  margin-left:20px; color:#fff;">Manuel Gallardo Zamora #225 </p>
-        <p class="card-text " style=" margin-left:20px;margin-top:-15px; color:#fff;">Colima 28000 </p>
+        <p class="card-text " style="margin-top:10px;  margin-left:20px; color:#fff;">Manuel Gallardo Zamora #225 Colima 28000 </p>
 
 
 
-  </div>
-        
-  </div>  
 
-  </div>  
 
- </div>  
 
+      </div>
+      
+    </div>
+  </div> 
 
 
 <!-- Area de Footer Contenedor  -->
 <!-- ...........................-->
 <div class="container-fluid" >
     <div class="row"  >
-      <div class="col"  style="background-color:#262626; margin-top:-15px;">
+      <div class="col"  style="background-color:#262626; margin-top:-25px;">
         <h1 style=" margin-top:60px; float:center; text-align: center; color:#fff;"><img src="Imgs/Logo_proceder.JPG" class="rounded-circle">PROCEDER, A.C.</h1> 
        </h5>
       </div>

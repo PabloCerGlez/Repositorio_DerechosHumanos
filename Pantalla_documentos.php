@@ -25,9 +25,10 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup"  >
     <div class="navbar-nav" >
-      <a class="nav-item nav-link active btn-light " style=" text-align: center; border-radius: 25px; width:150px;  color:white; background-color:   #0E5EA8;          " href="#">Inicio <span class="sr-only">(current)</span></a>
-      <a class="nav-item nav-link btn btn-light " style= " text-align: center; border-radius: 25px;width:150px;   color:#262626;" href="Pantalla_documentos.php">Documentos</a>
-      <a class="nav-item nav-link btn btn-light" style="text-align: center; border-radius: 25px; width:150px;  color:#262626;"  href="Pantalla_foro.php">Foro</a>
+      <a class="nav-item nav-link btn btn-light " style= " text-align: center; border-radius: 25px;width:250px;   color:#262626;" href="index.php">INICIO</a>
+      <a class="nav-item nav-link active btn-light " style=" text-align: center; border-radius: 25px; width:250px;  color:white; background-color:   #0E5EA8;          " href="#">DOCUMENTOS <span class="sr-only">(current)</span></a>
+
+      <a class="nav-item nav-link btn btn-light" style="text-align: center; border-radius: 25px; width:250px;  color:#262626;"  href="Pantalla_foro.php">FORO</a>
     </div>
   </div>
 </nav>

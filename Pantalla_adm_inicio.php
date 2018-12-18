@@ -25,9 +25,9 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup"  >
     <div class="navbar-nav" >
-      <a class="nav-item nav-link active btn-light " style=" text-align: center; border-radius: 25px; width:150px;  color:white; background-color:   #0E5EA8;          " href="#">Inicio <span class="sr-only">(current)</span></a>
-      <a class="nav-item nav-link btn btn-light " style= " text-align: center; border-radius: 25px;width:150px;   color:#262626;" href="Pantalla_documentos.php">Documentos</a>
-      <a class="nav-item nav-link btn btn-light" style="text-align: center; border-radius: 25px; width:150px;  color:#262626;"  href="Pantalla_foro.php">Foro</a>
+    <a class="nav-item nav-link active btn-light " style=" text-align: center; border-radius: 25px; width:150px;  color:white; background-color:   #0E5EA8;          " href="#">INICIO <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link btn btn-light " style= " text-align: center; border-radius: 25px;width:150px;   color:#262626;" href="Pantalla_adm_eliminar_archivos.php">ELIMINAR</a>
+      <a class="nav-item nav-link btn btn-light" style="text-align: center; border-radius: 25px; width:150px;  color:#262626;"  href="Pantalla_adm_agregar_archivos.php">AGREGAR</a>
     </div>
   </div>
 </nav>
@@ -37,7 +37,7 @@
 <!-- Area de Mision Contenedor -->
 <!-- ...........................-->
     
-<div class="row align-items-start overflow-hidden p-3 p-md-5 m-md-3" style="height: 600px; background-color:#fff; margin-top:200px;"  >
+<div class="row align-items-start overflow-hidden p-3 p-md-5 m-md-3" style="height: 800px; background-color:#fff; margin-top:200px;"  >
 <!-- Area de Mision Contenedor  (IZQUIERDO) -->
 <!-- ...........................-->
   <div class="col "  style="background-color:#fff; height: 525px; margin-top:150px;"  >  
@@ -66,7 +66,7 @@
 <!-- Area de Mision IMAGE Contenedor  (DERECHO) -->
 <!-- ...........................-->
       
-  <div class="col"  style="background-color:#fff; height: 525px; margin-top:150px;">
+  <div class="col"  style="background-color:#fff; height: 525px; margin-top:100px;">
   
        <p><img src="Imgs/Lap.jpg" style="height: 525px; width:105%;"></p> 
          </div>
@@ -77,7 +77,7 @@
 
 <!-- Area de Footer Contenedor  -->
 <!-- ...........................-->
-<div class="container-fluid"  style="margin-top:350px">
+<div class="container-fluid"  style="margin-top:100px">
     <div class="row"  >
       <div class="col"  style="background-color:#262626; margin-top:-15px;">
         <h1 style=" margin-top:60px; float:center; text-align: center; color:#fff;"><img src="Imgs/Logo_proceder.JPG" class="rounded-circle">PROCEDER, A.C.</h1> 

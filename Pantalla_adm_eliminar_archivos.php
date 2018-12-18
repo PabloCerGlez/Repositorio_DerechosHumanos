@@ -25,9 +25,9 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup"  >
     <div class="navbar-nav" >
-      <a class="nav-item nav-link active btn-light " style=" text-align: center; border-radius: 25px; width:150px;  color:white; background-color:   #0E5EA8;          " href="#">Inicio <span class="sr-only">(current)</span></a>
-      <a class="nav-item nav-link btn btn-light " style= " text-align: center; border-radius: 25px;width:150px;   color:#262626;" href="Pantalla_documentos.php">Documentos</a>
-      <a class="nav-item nav-link btn btn-light" style="text-align: center; border-radius: 25px; width:150px;  color:#262626;"  href="Pantalla_foro.php">Foro</a>
+      <a class="nav-item nav-link active btn-light " style=" text-align: center; border-radius: 25px; width:150px;  color:white; background-color:   #0E5EA8;          " href="Pantalla_adm_inicio.php">INICIO <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link btn btn-light " style= " text-align: center; border-radius: 25px;width:150px;   color:#262626;" href="#">ELIMINAR</a>
+      <a class="nav-item nav-link btn btn-light" style="text-align: center; border-radius: 25px; width:150px;  color:#262626;"  href="Pantalla_adm_agregar_archivos.php">AGREGAR</a>
     </div>
   </div>
 </nav>
@@ -54,7 +54,44 @@
 
 
 
-<!-- Area  de contenido -->
+
+<!-- Area  de contenido de Informacion (buscar) -->
+<!-- ...........................-->
+
+
+ <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center ">
+     
+<div class="container-fluid">
+    
+    <div class="row">
+
+      <div class="col"  style="background-color:#fff ">
+      <h1 style=" margin-top:20px; float:left;   margin-bottom:25px;  ">Informacion</h1> 
+<select style="  width : 600px;  margin-bottom:50px;  "  cols="10" class="form-control " id="control1" name="control1"> 
+        <option>TEMAS</option> 
+        <option>1</option>
+        <option>2</option> 
+        <option>3</option> 
+        <option>4</option> 
+    </select>
+      </div>
+      <div class="col-6"  style="background-color:#fff">
+    
+<h4 for="nombre" style=" margin-bottom:50px;  margin-top:70px; margin-left:50px;  float:left;">   Buscar:</h4>
+<input placeholder="Buscar:"  style=" width : 600px; margin-bottom:50px; margin-top:70px; float:right;" type="text" class="form-control" id="buscar" name="buscar">
+      </div>
+      
+    </div>  
+    
+  </div> 
+
+</div>
+
+
+
+
+
+<!-- Area  de contenido de la Informacion (mostrar) -->
 <!-- ...........................-->
 
 
@@ -64,63 +101,8 @@
 
 
 
- <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 "  style="background-color:#fff" >
-     
-     <div class="container-fluid"   >
-         
-         <div class="row">
-         
-           <div class="col"  style="background-color:#fff">
-           <div class="container">
-           <h1 style=" margin-top:20px; margin-bottom:50px;  text-align: center;">ADMINISTRADOR</h1> 
-
-           <form>
-  
-
-      <div class="form-group"> 
-        <label for="nombre">Origen:</label>
-        <input  style=" width : 600px; " type="text" class="form-control" id="nombre" name="nombre">
-
-    <label for="nombre">Nombre de documento:</label>
-        <input  style=" width : 600px; " type="text" class="form-control" id="nombre" name="nombre">
 
 
-      </div> 
-          <div class="form-group">          
-            <label for="control1">Seleccione un tema</label> 
-            <select style=" width : 600px; "  cols="10" class="form-control " id="control1" name="control1"> 
-                <option>Temas</option> 
-                <option>2</option>
-                <option>3</option> 
-                <option>4</option> 
-                <option>5</option> 
-            </select> 
-          </div>
-
-
-<div class="form-group"> 
-<label for="nombre">Imagen de la institucion:</label>
-        <input  style=" width : 600px; " type="text" class="form-control" id="nombre" name="nombre">
-        <label for="nombre">Subir archivo:</label>
-        <input  style=" width : 600px; " type="text" class="form-control" id="nombre" name="nombre">
-<button type="submit"   style="float: right; width : 200px;" class="btn btn-secondary btn-lg">Guardar</button> 
-
-
-      </div> 
-        </form>
-        </div>
-
-           </div>
-           
-           
-         </div>  
-         
-       </div> 
-     
-     </div>
-     
-     
-     
 
 
 <!-- Area de Footer Contenedor  -->
@@ -149,6 +131,5 @@
     </div> 
     </div> 
 
-  
 </body>
 </html>
