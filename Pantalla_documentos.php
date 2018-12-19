@@ -2,7 +2,7 @@
 <html>
 <head>
 
-  <title>Inicio</title>
+  <title>Proceder A.C | DOCUMENTOS</title>
   <link rel="icon" href="Imgs/Logo_proceder.JPG">
 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">

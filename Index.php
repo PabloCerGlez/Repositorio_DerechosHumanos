@@ -2,7 +2,7 @@
 <html>
 <head>
 
-  <title>Inicio</title>
+  <title>Proceder A.C</title>
   <link href="Css/Footer_style.css" rel="stylesheet" >
   <link rel="icon" href="Imgs/Logo_proceder.JPG">
 
@@ -43,11 +43,11 @@ Multicultura
 <div class="container-fluid"   > 
     <div class="row" style=" height: 600px; text-align: center;  " >
     
-      <div class="col"  style="background-color:#aaa;  "  >
+      <div class="col"  style="background-color:#ffff;  "  >
 
       <h1 class="display-4 font-weight-normal" style=" margin-top:200px;  color:#0E5EA8;" >¿QUIÉNES SOMOS?</h1>
         <p class="lead font-weight-normal" style="  color:#262626;  "  >Promotores de Derechos Humanos Asociación Civil. Es una organización que difunde los derechos humanos en el estado de Colima, especialmente a bachilleres.</p>
-        <a class="btn  btn-lg" style=" border-radius:30px; background-color:#FBD011; color:#fff; " href="#">Ver documentos</a>
+        <a class="btn  btn-lg" style=" border-radius:30px; background-color:#FBD011; color:#fff; " href="pantalla_documentos.php">Ver documentos</a>
 
       </div>
      
@@ -72,7 +72,7 @@ e incluyente.</p>
 
 
       </div>
-      <div class="col"  style="background-color:#bbb">
+      <div class="col"  style="background-color:#F7F2F2">
         
       </div>
     
@@ -280,7 +280,7 @@ e incluyente.</p>
 
 <div class="container-fluid" style="    height:490px;">
     <div class="row">
-      <div class="col"  style="background-color:#262626; ">
+      <div class="col"  style="background-color:#3F3F3F; ">
 
 
 
@@ -312,16 +312,10 @@ e incluyente.</p>
 
 
       </div>
-      <div class="col"  style="background-color:#262626;">
+      <div class="col"  style="background-color:#3F3F3F;">
         <h1 class="card-title" style="margin-top:20px;   text-align: rigth; color:#FBD011; ">Direccion:</h1>
        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d941.7020621703726!2d-103.71993617079106!3d19.247186899186882!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x84255aafba26d7b9%3A0x1470d2b491f1e2e3!2sPromotores+de+Derechos+Humanos%2C+PROCEDER%2C+A.C.!5e0!3m2!1ses!2smx!4v1544508924498" width="100%" height="350px" frameborder="0" style="border:0" allowfullscreen></iframe>
         <p class="card-text " style="margin-top:10px;  margin-left:20px; color:#fff;">Manuel Gallardo Zamora #225 Colima 28000 </p>
-
-
-
-
-
-
       </div>
       
     </div>
@@ -346,7 +340,7 @@ e incluyente.</p>
     <div class="row">
     <div class="col-lg"  style="background-color:#262626">
     <div class="footer-copyright" style="background-color:#262626" >
-            <p style=" color:#fff;">Diseñado y desarrollado por <img src="Imgs/Tejuino.png" class="rounded-circle"> </p>
+            <p style=" color:#fff;">Diseñado y desarrollado por <a href="https://tejuinoexe.com"><img src="Imgs/Tejuino.png" class="rounded-circle"></a> </p>
 
 
         </div>
