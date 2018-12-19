@@ -50,21 +50,10 @@
 
       <h1 class="display-4 font-weight-normal" style=" margin-top:200px;  color:#262626;" >Descubre informacion sobre tus derechos.
 </h1>
-      
-
       </div>
      
     </div>  
     </div>  
-
-
-
-
-
-
-
-
-
 
 <!-- Area  de contenido de Informacion (buscar) -->
 <!-- ...........................-->

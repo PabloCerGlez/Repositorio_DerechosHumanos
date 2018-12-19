@@ -1,3 +1,4 @@
+<?php include('connect.php');?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -28,6 +29,7 @@
       <a class="nav-item nav-link active btn-light" style=" text-align: center; border-radius: 25px;  width:250px ;  color:white; background-color:   #0E5EA8;          " href="#">INICIO <span class="sr-only">(current)</span></a>
       <a class="nav-item nav-link btn btn-light " style= " text-align: center; border-radius: 25px;  width:250px;   color:#262626;" href="Pantalla_documentos.php">DOCUMENTOS</a>
       <a class="nav-item nav-link btn btn-light" style="text-align: center; border-radius: 25px; width:250px;  color:#262626;"  href="Pantalla_foro.php">FORO</a>
+      <a class="nav-item nav-link btn btn-light" style="text-align: center; border-radius: 25px; width:250px;  color:#262626;"  href="logout.php">Cerrar sesion</a>
     </div>
   </div>
 </nav>
